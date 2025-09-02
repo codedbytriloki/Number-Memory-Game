@@ -1,0 +1,79 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body{
+  background-color:rgb(230, 229, 229);
+  text-align: center;
+  padding: 20px;
+}
+.container{
+  max-width: 350px;
+  width: 100%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color:deepskyblue;
+  border-radius: 5px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+h2{
+  margin-bottom: 20px;
+}
+.main-container{
+  width: 300px;
+  margin: 20px auto;
+  text-align: center;
+  padding: 7px;
+}
+#number-display{
+  font-size: 20px;
+  color: aliceblue;
+  font-weight: 600;
+}
+.input-builg{
+  display: none;
+  gap: 10px;
+  align-items: center;
+  justify-content:space-around ;
+  margin: 30px 7px;
+}
+.input-builg label{
+  font-size: 16px;
+  font-weight: 500;
+}
+.input-builg input{
+  flex: 1;
+  font-size: 16px;
+  border: none;
+  background: transparent;
+  outline: none;
+  border-bottom: 1px solid #ccc;
+  color: aliceblue;
+  letter-spacing: 3px;
+}
+.button-field button{
+  padding: 7px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border: 1px solid #fff;
+  background: transparent;
+  border-radius: 4px;
+  color: #fff;
+  transition: 0.3s ease;
+  outline: none;
+}
+button:hover{
+  background-color:#fff;
+  color: rgb(9, 112, 147);
+}
+#submitBtn{
+  display: none;
+}
+#message{
+  font-weight: 600;
+  color: #fff;
+  margin-top: 10px;
+}
